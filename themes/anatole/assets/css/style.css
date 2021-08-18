@@ -285,6 +285,17 @@ aside {
   text-align: center;
 }
 
+.sidebar .categories-list {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .stuff-text {
+  text-align: center;
+}
+
 .sidebar .logo-title .description {
   font-size: 1.4rem;
   margin: 0 1em;
