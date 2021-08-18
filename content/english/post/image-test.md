@@ -6,6 +6,7 @@ tags:
 - thumbnail
 thumbnail: images/landscape.jpg
 title: Guide to Thumbnails in Hugo
+draft: true
 ---
 
 Thumbnails can be enabled easily by setting the `thumbnail` parameter in the frontmatter to an image such as `"images/landscape.jpg"`.

@@ -7,6 +7,7 @@ tags:
 - redirect
 - redirectUrl
 title: Redirect
+draft: true
 ---
 
 Forwarding to [gohugo](https://gohugo.io) using `redirectUrl`

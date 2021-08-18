@@ -5,6 +5,7 @@ description: A brief guide to how to setup series part 1
 series:
 - series-setup
 title: Series Part 1
+draft: true
 ---
 
 In this first part of the series we'll show you how to create a series
