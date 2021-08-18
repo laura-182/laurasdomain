@@ -30,13 +30,11 @@
     <div class="stuff-text">
       <p>Stuff I Write About</p>
       </div>
-    <div>
     <ul class="categories-list">
     {{ range .Site.Taxonomies.categories }}
             <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
     {{ end }}
 </ul>
-</div>
   </div>
   {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
 </div>
