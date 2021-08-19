@@ -1,3 +1,3 @@
 # My Blog!
 
-This is cool.
+This is cool. Yay for Blogdown!
