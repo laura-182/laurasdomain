@@ -1,0 +1,24 @@
+---
+title: Automating Labor Force Updates
+author: Laura Thomas
+date: '2021-08-24'
+categories:
+  - R
+  - laborforce
+tags:
+  - blscraper
+  - datastudio
+DisableComments: no
+---
+
+Monthly labor force and unemployment data are the most requested metrics both internally and externally. It was top of my list for automating after I learned R. Thankfully [blscrapeR](https://github.com/keberwein/blscrapeR) takes care of most of the hard work to get the data from the BLS website. I already was storing my data in a Google Sheet, so [googlesheets4](https://googlesheets4.tidyverse.org/) was an awesome discovery to allow me to move the data out of RStudio and into my existing data structure.
+
+
+```{r Load Libraries, echo=TRUE, include=TRUE}
+
+library(tidyverse) # because obviously
+library(blscrapeR) # as of 8/2021, not currently on CRAN, so download from GitHub
+library(googlesheets4)
+
+```
+

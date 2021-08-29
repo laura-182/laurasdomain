@@ -11,4 +11,4 @@ tags:
   - learning
 ---
 
-I don't know what the fuck I'm doing.
+I made a website with Blogdown, RStudio, GitHub and Netlify! Success!
