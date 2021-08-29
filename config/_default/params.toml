@@ -6,9 +6,9 @@ profilePicture = "images/profilesquare.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = ["css/atom-one-dark-reasonable.min.css"]
 # example ["js/custom.js"]
-customJs = [] 
+customJs = ["js/highlight.min.js"] 
 mainSections = ["post"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true

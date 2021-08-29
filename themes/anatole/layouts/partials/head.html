@@ -57,7 +57,7 @@
     />
 
   {{ end }}
-  {{ $markupHighlightStyle := resources.Get "css/markupHighlight.css" | resources.Minify | resources.Fingerprint }}
+ {{ $markupHighlightStyle := resources.Get "css/markupHighlight.css" | resources.Minify | resources.Fingerprint }}
   <link
     rel="stylesheet"
     href="{{ $markupHighlightStyle.RelPermalink }}"
@@ -192,4 +192,7 @@
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 </style>
+<link rel="stylesheet" href="{{"css/night-owl.min.css" | absURL}}" rel="stylesheet" id="theme-stylesheet">
+<script src="{{ "js/highlight.pack.js" | absURL }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </head>
