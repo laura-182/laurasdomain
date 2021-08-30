@@ -23,7 +23,7 @@
   url = "/contact/"
 
   [[footer]]
-  name = "imprint"
+  name = "resume"
   weight = 1
   identifier = "imprint"
-  url = "/imprint/"
+  url = "/resume/"

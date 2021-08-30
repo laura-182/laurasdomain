@@ -1,12 +1,12 @@
 ---
-title: About
+title: About Me
 author: Laura Thomas
 date: '2021-08-18'
 aliases:
   - about-us
   - about-hugo
   - contact
-description: Hugo, the world's fastest framework for building websites
+description: what i'm about
 ---
 
 I want to make things more efficient for good people doing good things. I want to make complex policies and programs accessible and approachable for everyone. Most recently that's meant data wrangling and grant applications for a chamber/economic development/core district organization in Cedar Rapids, Iowa.
