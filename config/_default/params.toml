@@ -1,6 +1,7 @@
 blogtitle = "Laura's Blog"
 author = "LT"
 #copyright = "2020-2021"
+toc = true
 description = "This is my domain."
 profilePicture = "images/profilesquare.jpg"
 keywords = ""
