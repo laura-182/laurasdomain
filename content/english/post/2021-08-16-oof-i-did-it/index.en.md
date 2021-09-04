@@ -16,3 +16,5 @@ tags:
 I made a website with Blogdown, RStudio, GitHub and Netlify! Success!
 
 There's probably lots of things missing. I'm working on it...
+
+[Resume](https://www.laurasdomain.com/content/english/post/2021-08-16-oof-i-did-it/LauraThomas-Resume.pdf)
